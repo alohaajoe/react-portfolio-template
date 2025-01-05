@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Footer.scss'
+import '../assets/styles/Impressum.scss'
 import Impressum from "./Impressum";
 
 function Footer() {
@@ -17,7 +18,10 @@ function Footer() {
       
       <p><a onClick={toggleImpressum}>{showImpressum ? 'Impressum schließen' : 'Impressum'}</a></p>
       {showImpressum && (
+      <div>
       <Impressum />
+      <p><a onClick={toggleImpressum}>Impressum schließen</a></p>
+      </div>
       )}
     </footer>
   );
