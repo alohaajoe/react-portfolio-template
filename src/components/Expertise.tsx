@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faPalette, faBolt } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faPalette, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -42,7 +42,9 @@ const labelsThird = [
     "Platinen Design",
     "Fehleranalyse",
     "Schaltpläne",
-    
+    "Elektronik",
+    "IoT",
+    "Handwerk",
 ];
 
 function Expertise() {
@@ -76,9 +78,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faBolt} size="3x"/>
-                    <h3>Elektrotechnik</h3>
-                    <p>Durch meine Ausbildung und Arbeit in der Industrie bin ich in der Lage auch einmal unter die Haube von elektronischen Geräten zu schauen.</p>
+                    <FontAwesomeIcon icon={faScrewdriverWrench} size="3x"/>
+                    <h3>Physical Computing</h3>
+                    <p>Durch meine Ausbildung und Arbeit in der Industrie habe ich gelernt, elektronische Geräte zu analysieren und zu reparieren. Ich arbeite auch gerne handwerklich und setze praktische Lösungen um.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Skills:</span>
                         {labelsThird.map((label, index) => (

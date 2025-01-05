@@ -13,10 +13,10 @@ function Footer() {
   return (
     <footer>
       <div>
-      <a href="https://www.linkedin.com/in/joelina-haseloh-540698269/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+      <a className="no-icon" href="https://www.linkedin.com/in/joelina-haseloh-540698269/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
       
-      <p><a onClick={toggleImpressum}>{showImpressum ? 'Impressum schließen' : 'Impressum'}</a></p>
+      <p><a className="no-icon" onClick={toggleImpressum}>{showImpressum ? 'Impressum schließen' : 'Impressum'}</a></p>
       {showImpressum && (
       <div>
       <Impressum />

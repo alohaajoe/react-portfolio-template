@@ -24,28 +24,28 @@ function Project() {
             </div>
             
             <div className="project">
-                <a href="https://students.pages.coco.study/ss22/aai/team3/" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://students.pages.coco.study/ss22/aai/team3/" target="_blank" rel="noreferrer"><h2>Buchstaben- und Ziffern-Erkenner -- Jetzt trainieren!</h2></a>
+                <a className="no-icon" href="https://students.pages.coco.study/ss22/aai/team3/" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <h2><a href="https://students.pages.coco.study/ss22/aai/team3/" target="_blank" rel="noreferrer">Buchstaben- und Ziffern-Erkenner -- Jetzt trainieren!</a></h2>
                 <p>Im Kurs Applied AI haben wir in Teams ein Perceptron-Modell mit <a href="https://www.tensorflow.org/js" target="_blank">TensorFlow.js</a> programmiert, welches zunächst mit MNIST-Daten trainiert wird um Zahlen und Ziffern erkennen zu können.  Auch dieses Projekt wurde zusammen mit <a href="https://danielbusch.de/" target="_blank">Daniel Busch</a> und Marc Unkelbach verwirklicht.</p>
             </div>
 
             <div className="project">
-                <a href="https://sit.gsa.ac.uk/winter-school" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://sit.gsa.ac.uk/winter-school" target="_blank" rel="noreferrer"><h2>Winterschool 2024 Glasgow School of Arts</h2></a>
+                <a className="no-icon" href="https://sit.gsa.ac.uk/winter-school" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <h2><a href="https://sit.gsa.ac.uk/winter-school" target="_blank" rel="noreferrer">Winterschool 2024 Glasgow School of Arts</a></h2>
                 <p>Eine Woche an der Küste Schottlands in Forress zusammen mit Student*innen aus Europa und Asien. Eine einzigartige Erfahrung.
                 Thema „Soil" - „Boden" und die Frage, was wir von ihm lernen können.
                 </p>
             </div>
 
             <div className="project">
-                <a href="https://joe-30.gitbook.io/open-design" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://joe-30.gitbook.io/open-design" target="_blank" rel="noreferrer"><h2>Resistor Twister - hear them scream and watch their heart beat</h2></a>
+                <a className="no-icon" href="https://joe-30.gitbook.io/open-design" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <h2><a href="https://joe-30.gitbook.io/open-design" target="_blank" rel="noreferrer">Resistor Twister - hear them scream and watch their heart beat</a></h2>
                 <p>In Zusammenarbeit mit Fabian Faedrich ist in dem Kurs Open Design ein außergewöhnliches Artefakt entstanden, indem der Mensch für die Maschine arbeiten muss. Was sonst haben ein Powerball, ein Plattenspieler und ein Oszilloskop gemeinsam?</p>
             </div>
             
             <div className="project">
-                <a href="https://youtu.be/14XJ3Iw63Uw" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://youtu.be/14XJ3Iw63Uw" target="_blank" rel="noreferrer"><h2>FeelMyMOODs</h2></a>
+                <a className="no-icon" href="https://youtu.be/14XJ3Iw63Uw" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
+                <h2><a href="https://youtu.be/14XJ3Iw63Uw" target="_blank" rel="noreferrer">FeelMyMOODs</a></h2>
                 <p> Im Rahmen des Projects Launch im 5. Fachsemester entstand ein Prototyp der Produktidee FeelMyMOODs. FeelMyMOODs ist ein smarter Ring, der in Form von Ringpaaren wie Freundschaftsringe gestaltet ist. Mit einer einfachen Berührung kann die LED im Ring in eine Vielzahl von Farben eingestellt werden. Ein Doppelklick bestätigt die Auswahl und überträgt sie an den anderen Ring. So soll eine einfache und intuitive Kommunikation zwischen zwei Personen ermöglicht werden, die sich nahe stehen, aber räumlich getrennt sind. </p>
             </div>
 
@@ -56,14 +56,14 @@ function Project() {
             </div>
 
             <div className="project">
-                <a href="https://youtu.be/Eikem5Jtn0U" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://youtu.be/Eikem5Jtn0U" target="_blank" rel="noreferrer"><h2>CupCup - schreiende Tassenschublade</h2></a>
-                <p>Nachdem im Project Make I eine Küche gebaut wurde, wird nun für diese im Project Make II eine Tassenschublade entwickelt. Ziel war es, Gelerntes aus Kursen, wie z.B Client Server Basics, Advanced Clients und Rapid Prototyping zu vertiefen, verknüpfen und in die Praxis umzusetzen. Einmal Full Stack mit Mikrocontroller bitte.</p>
+                <a className="no-icon" href="https://youtu.be/Eikem5Jtn0U" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <h2><a href="https://youtu.be/Eikem5Jtn0U" target="_blank" rel="noreferrer">CupCup - schreiende Tassenschublade</a></h2>
+                <p>Nachdem im Project Make I eine Küche gebaut wurde, wird nun für diese im Project Make II eine Tassenschublade entwickelt. Ziel war es, Gelerntes aus Kursen, wie z.B. Client Server Basics, Advanced Clients und Rapid Prototyping zu vertiefen, verknüpfen und in die Praxis umzusetzen. Einmal Full Stack mit Mikrocontroller bitte.</p>
             </div>
 
             <div className="project">
-                <a href="https://jhaseloh.pages.coco.study/gestaltungsportfolio-generative-gestaltung-ws-202122/" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://jhaseloh.pages.coco.study/gestaltungsportfolio-generative-gestaltung-ws-202122/" target="_blank" rel="noreferrer"><h2>Gestaltungsportfolio Generative Gestaltung</h2></a>
+                <a className="no-icon" href="https://jhaseloh.pages.coco.study/gestaltungsportfolio-generative-gestaltung-ws-202122/" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <h2><a href="https://jhaseloh.pages.coco.study/gestaltungsportfolio-generative-gestaltung-ws-202122/" target="_blank" rel="noreferrer">Gestaltungsportfolio Generative Gestaltung</a></h2>
                 <p>Ein Kurs aus den ersten Semestern lehrte uns klassischen Grundlagen der visuellen Gestaltung: Punkt, Linie, Fläche, Farbe und Form. Dazu kommt dann noch etwas Typographie, Animation und Interaktion dazu. Gearbeitet haben wir mit <a href="https://p5js.org/" target="_blank">p5.js</a>.
                 </p>
             </div>

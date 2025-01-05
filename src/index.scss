@@ -23,6 +23,23 @@ a {
   text-decoration: none;
 }
 
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+a::before {
+  -webkit-font-smoothing: antialiased;
+  content: "\f35d";
+  /* Unicode for the FontAwesome icon (Up Right Arrow) */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #5000ca;
+  margin-right: 0.75%;
+  font-size: 60%;
+}
+
+a.no-icon::before {
+  content: none;
+}
+
 a:hover {
   color: #5000ca;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;

@@ -13,13 +13,13 @@ function Main() {
         </div>
         <div className="content">
           <div className="social_icons">
-            <a href="https://www.linkedin.com/in/joelina-haseloh-540698269/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a className="no-icon" href="https://www.linkedin.com/in/joelina-haseloh-540698269/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Joe</h1>
           <p>Moin und Willkommen auf meinem Portfolio</p>
 
           <div className="mobile_social_icons">
-            <a href="https://www.linkedin.com/in/joelina-haseloh-540698269/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a className="no-icon" href="https://www.linkedin.com/in/joelina-haseloh-540698269/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
         </div>
       </div>
