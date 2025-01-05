@@ -146,7 +146,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .items-container {
     padding: 5% 5%;
   }
