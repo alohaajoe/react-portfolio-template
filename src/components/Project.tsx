@@ -18,7 +18,7 @@ function Project() {
             <div className="project">
                 <img src={mock10} className="zoom" alt="thumbnail" width="100%"/>
                 <h2>Pixel Post</h2>
-                <p>Teamprojekt aus dem Kurs IoT im Rahmen des Forschungsprojekts <a href="https://vreun.de/" target="_blanket">VREUNDE</a>, Gewinner des Publikumpreises bei der ITERATION 3.0 in Zusammenarbeit mit Daniel Busch und Marc Unkelbach.
+                <p>Teamprojekt aus dem Kurs IoT im Rahmen des Forschungsprojekts <a href="https://vreun.de/" target="_blanket">VREUNDE</a>, Gewinner des Publikumpreises bei der ITERATION 3.0 in Zusammenarbeit mit <a href="https://danielbusch.de/" target="_blank">Daniel Busch</a> und Marc Unkelbach.
                 Gedanke bei PixelPost ist es, trotz des bewusst eingeschränkten Kommunikationsumfangs, kleine Kontaktpunkte und kurze Nachrichten, egal ob tiefgründig oder oberflächlich, zwischen Freund*innen im Alltag auf Distanz zu setzen, welche man bei unmittelbarem Kontakt ohne Distanz bspw. beim kurzen gemeinsamen Kaffee in der WG-Küche auch hätte.
                 </p>
             </div>
@@ -26,7 +26,7 @@ function Project() {
             <div className="project">
                 <a href="https://students.pages.coco.study/ss22/aai/team3/" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://students.pages.coco.study/ss22/aai/team3/" target="_blank" rel="noreferrer"><h2>Buchstaben- und Ziffern-Erkenner -- Jetzt trainieren!</h2></a>
-                <p>Im Kurs Applied AI haben wir in Teams ein Perceptron-Modell mit <a href="https://www.tensorflow.org/js" target="_blank">TensorFlow.js</a> programmiert, welches zunächst mit MNIST-Daten trainiert wird um Zahlen und Ziffern erkennen zu können.  Auch dieses Projekt wurde zusammen mit Daniel Busch und Marc Unkelbach verwirklicht.</p>
+                <p>Im Kurs Applied AI haben wir in Teams ein Perceptron-Modell mit <a href="https://www.tensorflow.org/js" target="_blank">TensorFlow.js</a> programmiert, welches zunächst mit MNIST-Daten trainiert wird um Zahlen und Ziffern erkennen zu können.  Auch dieses Projekt wurde zusammen mit <a href="https://danielbusch.de/" target="_blank">Daniel Busch</a> und Marc Unkelbach verwirklicht.</p>
             </div>
 
             <div className="project">
