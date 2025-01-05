@@ -2,7 +2,7 @@
   "name": "react-portfolio-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "www.alohaa-joe.de",
+  "homepage": "https://www.alohaa-joe.de",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
