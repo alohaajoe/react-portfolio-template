@@ -1,14 +1,12 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
+import mock03 from '../assets/images/mock03.jpg';
+import mock04 from '../assets/images/mock04.jpg';
+import mock05 from '../assets/images/mock05.jpeg';
+import mock06 from '../assets/images/mock06.jpg';
+import mock07 from '../assets/images/mock07.jpg';
+import mock08 from '../assets/images/mock08.jpg';
 import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import mock10 from '../assets/images/mock10.jpg';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -18,51 +16,56 @@ function Project() {
         <div className="projects-grid">
 
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Pixel Post</h2></a>
-                <p>Teamprojekt aus dem Kurs IoT im Rahmen des Forschungsprojekts VREUNDE, Gewinner des Publikumpreises bei der ITERATION 3.0 in Zusammenarbeit mit Daniel Busch und Marc Unkelbach</p>
+                <img src={mock10} className="zoom" alt="thumbnail" width="100%"/>
+                <h2>Pixel Post</h2>
+                <p>Teamprojekt aus dem Kurs IoT im Rahmen des Forschungsprojekts <a href="https://vreun.de/" target="_blanket">VREUNDE</a>, Gewinner des Publikumpreises bei der ITERATION 3.0 in Zusammenarbeit mit Daniel Busch und Marc Unkelbach.
+                Gedanke bei PixelPost ist es, trotz des bewusst eingeschränkten Kommunikationsumfangs, kleine Kontaktpunkte und kurze Nachrichten, egal ob tiefgründig oder oberflächlich, zwischen Freund*innen im Alltag auf Distanz zu setzen, welche man bei unmittelbarem Kontakt ohne Distanz bspw. beim kurzen gemeinsamen Kaffee in der WG-Küche auch hätte.
+                </p>
             </div>
             
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>Buchstaben- und Ziffern-Erkenner -- Jetzt trainieren!</h2></a>
-                <p>Im Kurs Applied AI haben wir in Teams ein Perceptron-Modell mit TensorFlow.js programmiert, welches zunächst mit MNIST-Daten trainiert wird um Zahlen und Ziffern erkennen zu können.  Auch dieses Projekt wurde zusammen mit Daniel Busch und Marc Unkelbach verwirklicht.</p>
+                <a href="https://students.pages.coco.study/ss22/aai/team3/" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://students.pages.coco.study/ss22/aai/team3/" target="_blank" rel="noreferrer"><h2>Buchstaben- und Ziffern-Erkenner -- Jetzt trainieren!</h2></a>
+                <p>Im Kurs Applied AI haben wir in Teams ein Perceptron-Modell mit <a href="https://www.tensorflow.org/js" target="_blank">TensorFlow.js</a> programmiert, welches zunächst mit MNIST-Daten trainiert wird um Zahlen und Ziffern erkennen zu können.  Auch dieses Projekt wurde zusammen mit Daniel Busch und Marc Unkelbach verwirklicht.</p>
             </div>
 
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Winterschool 2024 Glasgow Scool of Arts</h2></a>
-                <p>Eine Woche an der Küste Schottlands in Forress zusammen mit Student*innen aus Europa und Asien. Eine einzigartige Erfahrung.</p>
+                <a href="https://sit.gsa.ac.uk/winter-school" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://sit.gsa.ac.uk/winter-school" target="_blank" rel="noreferrer"><h2>Winterschool 2024 Glasgow School of Arts</h2></a>
+                <p>Eine Woche an der Küste Schottlands in Forress zusammen mit Student*innen aus Europa und Asien. Eine einzigartige Erfahrung.
+                Thema "Soil" - "Boden" und die Frage, was wir von ihm lernen können.
+                </p>
             </div>
 
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Resistor Twister - hear them scream and watch their heart beat</h2></a>
+                <a href="https://joe-30.gitbook.io/open-design" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://joe-30.gitbook.io/open-design" target="_blank" rel="noreferrer"><h2>Resistor Twister - hear them scream and watch their heart beat</h2></a>
                 <p>In Zusammenarbeit mit Fabian Faedrich ist in dem Kurs Open Design ein außergewöhnliches Artefakt entstanden, indem der Mensch für die Maschine arbeiten muss. Was sonst haben ein Powerball, ein Plattenspieler und ein Oszilloskop gemeinsam?</p>
             </div>
             
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>FeelMyMOODs</h2></a>
-                <p>Das Project Make umfasste den Bau eines Prototypen eines smarten Ringes zusammen mit Maja Kawecki und Sarah Busiah. Die Idee stammt ebenfalls aus dem Kurs Iot und in den Kursen zuvor wurde auch ein Businessplan gemeinsam am Beispiel dieses Projekts erstellt. Es ist im Rahmen des Forschungsprojekts VREUNDE entstanden und Maja Kawecki wird es wohl im Bachelor weiterverfolgen. </p>
-            </div>
-
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>CupCup - schreiende Tassenschublade</h2></a>
-                <p>Nachdem im Project Make I eine Küche gebaut wurde, wird nun für diese im Project Make II eine Tassenschublade entwickelt. Zusammen mit Nutsa Nadirashvili und Dominik Bourgeois wurde Gelerntes aus Kursen, wie z.B Client Server Basics, Advanced Clients und Rapid Prototyping vertieft, verknüpft und in die Praxis gebracht.</p>
+                <a href="https://youtu.be/14XJ3Iw63Uw" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://youtu.be/14XJ3Iw63Uw" target="_blank" rel="noreferrer"><h2>FeelMyMOODs</h2></a>
+                <p> Im Rahmen des Projects Launch im 5. Fachsemester entstand ein Prototyp der Produktidee FeelMyMOODs. FeelMyMOODs ist ein smarter Ring, der in Form von Ringpaaren wie Freundschaftsringe gestaltet ist. Mit einer einfachen Berührung kann die LED im Ring in eine Vielzahl von Farben eingestellt werden. Ein Doppelklick bestätigt die Auswahl und überträgt sie an den anderen Ring. So soll eine einfache und intuitive Kommunikation zwischen zwei Personen ermöglicht werden, die sich nahe stehen, aber räumlich getrennt sind. </p>
             </div>
 
             <div className="project">
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Die Eierlegende Wollmilchküche</h2></a>
-                <p>Project Make I wurde in Zusammenarbeit mit Studio C.A.R.E durchgeführt. Fünf Student*innen entwickelten eine mobile mudulare Küche von Scratch an. Ideenfindung, Pretotyping über 3D Modelle bis hin zum fertigen nutzbaren Produkt. Küche neu gedacht.</p>
+                <p>Project Make I wurde in Zusammenarbeit mit <a href="https://studio-c-a-r-e.com/" target="_blank">Studio C.A.R.E</a>durchgeführt. Fünf Student*innen entwickelten eine mobile mudulare Küche von Grund auf an. Ideenfindung, Pretotyping über 3D Modelle bis hin zum fertigen nutzbaren Produkt. Küche neu gedacht!</p>
             </div>
 
             <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Gestaltungsportfolio Generative Gestaltung</h2></a>
-                <p>Ein Kurs aus dem ersten Semester lehrte uns verschiedene gestalterische Methoden</p>
+                <a href="https://youtu.be/Eikem5Jtn0U" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://youtu.be/Eikem5Jtn0U" target="_blank" rel="noreferrer"><h2>CupCup - schreiende Tassenschublade</h2></a>
+                <p>Nachdem im Project Make I eine Küche gebaut wurde, wird nun für diese im Project Make II eine Tassenschublade entwickelt. Ziel war es Gelerntes aus Kursen, wie z.B Client Server Basics, Advanced Clients und Rapid Prototyping vertieft, verknüpft und in die Praxis umzusetzen. Einmal Full Stack mit Mikrocontroller bitte.</p>
+            </div>
+
+            <div className="project">
+                <a href="https://jhaseloh.pages.coco.study/gestaltungsportfolio-generative-gestaltung-ws-202122/" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://jhaseloh.pages.coco.study/gestaltungsportfolio-generative-gestaltung-ws-202122/" target="_blank" rel="noreferrer"><h2>Gestaltungsportfolio Generative Gestaltung</h2></a>
+                <p>Ein Kurs aus den ersten Semestern lehrte uns klassischen Grundlagen der visuellen Gestaltung: Punkt, Linie, Fläche, Farbe und Form. Dazu kommt dann noch etwas Typographie, Animation und Interaktion dazu. Gearbeitet haben wir mit <a href="https://p5js.org/" target="_blank">p5.js</a>.
+                </p>
             </div>
         </div>
     </div>
