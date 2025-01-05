@@ -14,57 +14,55 @@ import '../assets/styles/Project.scss';
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Projekte</h1>
         <div className="projects-grid">
+
             <div className="project">
                 <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Pixel Post</h2></a>
+                <p>Teamprojekt aus dem Kurs IoT im Rahmen des Forschungsprojekts VREUNDE, Gewinner des Publikumpreises bei der ITERATION 3.0 in Zusammenarbeit mit Daniel Busch und Marc Unkelbach</p>
             </div>
+            
             <div className="project">
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>Buchstaben- und Ziffern-Erkenner -- Jetzt trainieren!</h2></a>
+                <p>Im Kurs Applied AI haben wir in Teams ein Perceptron-Modell mit TensorFlow.js programmiert, welches zunächst mit MNIST-Daten trainiert wird um Zahlen und Ziffern erkennen zu können.  Auch dieses Projekt wurde zusammen mit Daniel Busch und Marc Unkelbach verwirklicht.</p>
             </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
-            </div>
+
             <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Winterschool 2024 Glasgow Scool of Arts</h2></a>
+                <p>Eine Woche an der Küste Schottlands in Forress zusammen mit Student*innen aus Europa und Asien. Eine einzigartige Erfahrung.</p>
             </div>
+
+            <div className="project">
+                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Resistor Twister - hear them scream and watch their heart beat</h2></a>
+                <p>In Zusammenarbeit mit Fabian Faedrich ist in dem Kurs Open Design ein außergewöhnliches Artefakt entstanden, indem der Mensch für die Maschine arbeiten muss. Was sonst haben ein Powerball, ein Plattenspieler und ein Oszilloskop gemeinsam?</p>
+            </div>
+            
             <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>FeelMyMOODs</h2></a>
+                <p>Das Project Make umfasste den Bau eines Prototypen eines smarten Ringes zusammen mit Maja Kawecki und Sarah Busiah. Die Idee stammt ebenfalls aus dem Kurs Iot und in den Kursen zuvor wurde auch ein Businessplan gemeinsam am Beispiel dieses Projekts erstellt. Es ist im Rahmen des Forschungsprojekts VREUNDE entstanden und Maja Kawecki wird es wohl im Bachelor weiterverfolgen. </p>
             </div>
+
             <div className="project">
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>CupCup - schreiende Tassenschublade</h2></a>
+                <p>Nachdem im Project Make I eine Küche gebaut wurde, wird nun für diese im Project Make II eine Tassenschublade entwickelt. Zusammen mit Nutsa Nadirashvili und Dominik Bourgeois wurde Gelerntes aus Kursen, wie z.B Client Server Basics, Advanced Clients und Rapid Prototyping vertieft, verknüpft und in die Praxis gebracht.</p>
             </div>
+
             <div className="project">
                 <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
+                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Die Eierlegende Wollmilchküche</h2></a>
+                <p>Project Make I wurde in Zusammenarbeit mit Studio C.A.R.E durchgeführt. Fünf Student*innen entwickelten eine mobile mudulare Küche von Scratch an. Ideenfindung, Pretotyping über 3D Modelle bis hin zum fertigen nutzbaren Produkt. Küche neu gedacht.</p>
             </div>
+
             <div className="project">
                 <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Gestaltungsportfolio Generative Gestaltung</h2></a>
+                <p>Ein Kurs aus dem ersten Semester lehrte uns verschiedene gestalterische Methoden</p>
             </div>
         </div>
     </div>

@@ -6,39 +6,43 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
+    "Java",
     "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
+    "p5.js",
+    "HTML",
+    "CSS",
+    "MQTT",
+    "Arduino",
     "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Docker",
+    "Git",
+    "TDD",
+    "Computanional Thinking",
+    "Agile Team Coding",
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "UI/UX",
+    "Interaction Design",
+    "Design Systems",
+    "CAD",
+    "3D Druck",
+    "Prototyping",
+    "Design Thinking",
+    "Problemlöser*in",
+    "Teamwork",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Löten",
+    "Automatisierung",
+    "SPS",
+    "Robotik",
+    "Ausbildung",
+    "Platinen Design",
+    "Fehleranalyse",
+    "Schaltpläne",
+    
 ];
 
 function Expertise() {
@@ -49,10 +53,10 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Coding</h3>
+                    <p>Während der Ausbildung und vor Allem während des Studiums habe ich einiges im Bereich Programmierung gelernt. Angefangen mit einem Textadventure bis hin zur Programmierung einer AI die Ziffern und Buchstaben erlenen kann. </p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Skills:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -61,10 +65,10 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Design</h3>
+                    <p>Zum Design gehört nicht nur die Hardware, sondern auch die Software, sowie die Zusammenarbeit der Verschiedenen Abteilungen und Expertisen.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Skills:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -73,10 +77,10 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Elektrotechnik</h3>
+                    <p>Durch meine Ausbildung und Arbeit in der Industrie bin ich in der Lage auch mal unter die Haube von elektronischen Geräten zu schauen</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Skills:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
