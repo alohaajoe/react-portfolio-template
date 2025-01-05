@@ -33,7 +33,7 @@ function Project() {
                 <a href="https://sit.gsa.ac.uk/winter-school" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://sit.gsa.ac.uk/winter-school" target="_blank" rel="noreferrer"><h2>Winterschool 2024 Glasgow School of Arts</h2></a>
                 <p>Eine Woche an der Küste Schottlands in Forress zusammen mit Student*innen aus Europa und Asien. Eine einzigartige Erfahrung.
-                Thema "Soil" - "Boden" und die Frage, was wir von ihm lernen können.
+                Thema „Soil" - „Boden" und die Frage, was wir von ihm lernen können.
                 </p>
             </div>
 
@@ -52,13 +52,13 @@ function Project() {
             <div className="project">
                 <a href="" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Die Eierlegende Wollmilchküche</h2></a>
-                <p>Project Make I wurde in Zusammenarbeit mit <a href="https://studio-c-a-r-e.com/" target="_blank">Studio C.A.R.E</a>durchgeführt. Fünf Student*innen entwickelten eine mobile mudulare Küche von Grund auf an. Ideenfindung, Pretotyping über 3D Modelle bis hin zum fertigen nutzbaren Produkt. Küche neu gedacht!</p>
+                <p>Project Make I wurde in Zusammenarbeit mit <a href="https://studio-c-a-r-e.com/" target="_blank">Studio C.A.R.E</a> durchgeführt. Fünf Student*innen entwickelten eine mobile modulare Küche von Grund auf an. Ideenfindung, Pretotyping über 3D Modelle bis hin zum fertigen, nutzbaren Produkt. Küche neu gedacht!</p>
             </div>
 
             <div className="project">
                 <a href="https://youtu.be/Eikem5Jtn0U" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://youtu.be/Eikem5Jtn0U" target="_blank" rel="noreferrer"><h2>CupCup - schreiende Tassenschublade</h2></a>
-                <p>Nachdem im Project Make I eine Küche gebaut wurde, wird nun für diese im Project Make II eine Tassenschublade entwickelt. Ziel war es Gelerntes aus Kursen, wie z.B Client Server Basics, Advanced Clients und Rapid Prototyping vertieft, verknüpft und in die Praxis umzusetzen. Einmal Full Stack mit Mikrocontroller bitte.</p>
+                <p>Nachdem im Project Make I eine Küche gebaut wurde, wird nun für diese im Project Make II eine Tassenschublade entwickelt. Ziel war es, Gelerntes aus Kursen, wie z.B Client Server Basics, Advanced Clients und Rapid Prototyping zu vertiefen, verknüpfen und in die Praxis umzusetzen. Einmal Full Stack mit Mikrocontroller bitte.</p>
             </div>
 
             <div className="project">
