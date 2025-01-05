@@ -21,7 +21,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Studium <a href="https://www.coco.study" target="_blank">Code & Context</a></h3>
+            <h3 className="vertical-timeline-element-title">Studium <a className="vertical-timeline-link" href="https://www.coco.study" target="_blank">Code & Context</a></h3>
             <h4 className="vertical-timeline-element-subtitle">TH Köln</h4>
             <p>
               Im Spannungsfeld zwischen Coding und Design.
@@ -37,7 +37,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Studentische Hilfskraft</h3>
-            <h4 className="vertical-timeline-element-subtitle"><a href="https://www.coco.study" target="_blank">Code & Context</a></h4>
+            <h4 className="vertical-timeline-element-subtitle"><a className="vertical-timeline-link" href="https://www.coco.study" target="_blank">Code & Context</a></h4>
             <p>
               Betreuung der Werkstatt, Unterstützung bei Projekten.
             </p>
@@ -50,7 +50,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Elektroniker*in für Betriebstechnik</h3>
-            <h4 className="vertical-timeline-element-subtitle"><a href="https://www.altendorfgroup.com/" target="_blank">Altendorf GmbH Minden</a></h4>
+            <h4 className="vertical-timeline-element-subtitle"><a className="vertical-timeline-link" href="https://www.altendorfgroup.com/" target="_blank">Altendorf GmbH Minden</a></h4>
             <p>
               Schaltschrankverdrahtung des damals neuen HAND GUARD Systems, Fehlerbehebung und Betriebsmittel Instandhaltung.
             </p>
@@ -76,7 +76,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Servicetechniker*in im Außendienst</h3>
-            <h4 className="vertical-timeline-element-subtitle"><a href="https://new.abb.com/de" target="_blank">ABB Automation GmbH</a> Hannover</h4>
+            <h4 className="vertical-timeline-element-subtitle"><a className="vertical-timeline-link" href="https://new.abb.com/de" target="_blank">ABB Automation GmbH</a> Hannover</h4>
             <p>
               Wartung und Indastandhaltung größerer Industrieanlagen, Disposition, Kundenbetreuung.
             </p>
@@ -89,7 +89,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
             <h3 className="vertical-timeline-element-title">Auslandspraktikum</h3>
-            <h4 className="vertical-timeline-element-subtitle"><a href="https://new.abb.com/products/robotics/sv" target="_blank">ABB Robotics</a> Västerås, Schweden</h4>
+            <h4 className="vertical-timeline-element-subtitle"><a className="vertical-timeline-link" href="https://new.abb.com/products/robotics/sv" target="_blank">ABB Robotics</a> Västerås, Schweden</h4>
             <p>
               Roboter haben mich schon immer fasziniert. In der Abteilung System Testing habe ich die Möglichkeit bekommen, mal etwas hinter die Kulissen zu schauen.
             </p>
@@ -102,7 +102,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
             <h3 className="vertical-timeline-element-title">Ausbildung Elektroniker*in für Geräte & Systeme</h3>
-            <h4 className="vertical-timeline-element-subtitle"><a href="https://new.abb.com/de" target="_blank">ABB Automation Producs GmbH</a> Minden</h4>
+            <h4 className="vertical-timeline-element-subtitle"><a className="vertical-timeline-link" href="https://new.abb.com/de" target="_blank">ABB Automation Producs GmbH</a> Minden</h4>
             <p>
               Ausgelernte Elektrofachkraft mit Schwerpunkt Automatisierungstechnik.
             </p>
@@ -130,7 +130,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Moin</h3>
             <h4 className="vertical-timeline-element-subtitle">Minden</h4>
             <p>
-              Viel Gebrabel und ein paar Windeln.
+              Viel Gebrabbel und ein paar Windeln.
             </p>
           </VerticalTimelineElement>
 
