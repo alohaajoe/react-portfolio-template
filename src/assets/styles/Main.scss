@@ -4,6 +4,7 @@
 
 .about-section {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     display: flex;
     gap: 30px;
     justify-content: flex-start;
