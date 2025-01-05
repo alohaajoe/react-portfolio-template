@@ -19,12 +19,6 @@
     background-position: center;
 }
 
-@media screen and (max-device-width: 1024px) {
-    .about-section {
-        background-attachment: scroll;
-    }
-}
-
 .about-section .content {
     text-align: left;
     z-index: 2;
@@ -146,6 +140,7 @@
             display: block;
             padding-left: 0px;
             padding-right: 0px;
+            background-attachment: scroll;
         }
 
         .about-section .content {
