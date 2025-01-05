@@ -50,8 +50,8 @@ function Project() {
             </div>
 
             <div className="project">
-                <a href="" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="" target="_blank" rel="noreferrer"><h2>Die Eierlegende Wollmilchküche</h2></a>
+                <img src={mock04} className="zoom" alt="thumbnail" width="100%"/>
+                <h2>Die Eierlegende Wollmilchküche</h2>
                 <p>Project Make I wurde in Zusammenarbeit mit <a href="https://studio-c-a-r-e.com/" target="_blank">Studio C.A.R.E</a> durchgeführt. Fünf Student*innen entwickelten eine mobile modulare Küche von Grund auf an. Ideenfindung, Pretotyping über 3D Modelle bis hin zum fertigen, nutzbaren Produkt. Küche neu gedacht!</p>
             </div>
 
