@@ -17,7 +17,7 @@ const labelsFirst = [
     "Docker",
     "Git",
     "TDD",
-    "Computanional Thinking",
+    "Computational Thinking",
     "Agile Team Coding",
 ];
 
