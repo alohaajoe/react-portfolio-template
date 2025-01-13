@@ -78,7 +78,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Servicetechniker*in im Außendienst</h3>
             <h4 className="vertical-timeline-element-subtitle"><a className="vertical-timeline-link" href="https://new.abb.com/de" target="_blank">ABB Automation GmbH</a> Hannover</h4>
             <p>
-              Wartung und Indastandhaltung größerer Industrieanlagen, Disposition, Kundenbetreuung.
+              Wartung und Instandhaltung größerer Industrieanlagen, Disposition, Kundenbetreuung.
             </p>
           </VerticalTimelineElement>
 
