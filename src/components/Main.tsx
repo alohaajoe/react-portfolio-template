@@ -1,7 +1,7 @@
 import React from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
-import profilePicture from '../assets/images/Joe.jpg';
+import profilePicture from '../assets/images/Joe3.jpg';
 
 function Main() {
 
