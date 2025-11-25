@@ -21,6 +21,7 @@ const Impressum = () => {
                     <h4>Urheberrecht:</h4>
                     <p>Die Inhalte auf dieser Website sind urheberrechtlich geschützt.</p>
                     <h5>Portfolio Design Template von <a href="https://github.com/yujisatojr/react-portfolio-template" target="_blank" rel="noreferrer">Yuji Sato</a></h5>
+                    <h5>Die Bildrechte für das Profilbild liegen bei <a href="https://www.ottobock.com" target="_blank" rel="noreferrer">Ottobock Deutschland</a>.</h5>
 
                     <h4>Datenschutz:</h4>
 
@@ -54,7 +55,7 @@ const Impressum = () => {
 
                     <p>Wir behalten uns vor, diese Datenschutzerklärung jederzeit zu ändern, um sie an gesetzliche Vorgaben oder neue technische Entwicklungen anzupassen.</p>
                     <br />
-                    <p><i>Stand: Januar 2025</i></p>
+                    <p><i>Stand: November 2025</i></p>
                     <br />
                 </div>
         </div>
